@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form{
+    width: 600px;
+    border: 1px solid black;
+    padding: 6rem;
+    background: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+h1{
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgb(253, 253, 253);
+    color: black;
+}
+
+label{
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: 300;
+}
+
+input{
+    display: block;
+    border: 2px solid white;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button{
+    float: right;
+    background-color: rgba(0, 77, 192, 0.726);
+    padding: .5em;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5em;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
+    #error{
+        background: blue ;
+        color: black;
+        padding: 10px;
+        width: 95%;
+        border-radius: 5px;
+        margin: 20px auto;
+    }
+}
+
